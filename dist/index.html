@@ -3,18 +3,125 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Mohammed Ansir CV</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet"> -->
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+           (function(){
+              emailjs.init("user_zxkvsWV0R93kNJR5cHe4i");
+           })();
+        </script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div id="app"></div>
+        
+        <!-- Nav -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header col-sm-5">
+                    <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <p class="header-text">
+                        <a href="#/">Mohammed Ansir</a>
+                        <i class="fa fa-terminal" aria-hidden="true"></i>
+                    </p>
+                </div>
+                <div class="collapse navbar-collapse navbar-right nav-mobile" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a data-toggle="collapse" data-target="#navbar-collapse-1" href="#/profile">Profile</a></li>
+                        <li><a data-toggle="collapse" data-target="#navbar-collapse-1" href="#/skills">Skills</a></li>
+                        <li><a data-toggle="collapse" data-target="#navbar-collapse-1" href="#/work">Work</a></li>
+                        <li><a data-toggle="collapse" data-target="#navbar-collapse-1" href="#/education">Education</a></li>
+                        <li><a data-toggle="collapse" data-target="#navbar-collapse-1" href="#/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-right nav-desk">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#/profile">Profile</a></li>
+                        <li><a href="#/skills">Skills</a></li>
+                        <li><a href="#/work">Work</a></li>
+                        <li><a href="#/education">Education</a></li>
+                        <li><a href="#/contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="jumbotron img-responsive">
+            <div class="container">
+                <div class="row">
+                    <div class="my-details">
+                        <h1 class="text-center">
+                            Responsive Front-end developer
+                        </h1>
+                        <ul class="list-inline text-center">
+                            <li>HTML</li>
+                            <li><i class="fa fa-minus" aria-hidden="true"></i></li>
+                            <li>CSS</li>
+                            <li><i class="fa fa-minus" aria-hidden="true"></i></li>
+                            <li>JavaScript</li>
+                            <li><i class="fa fa-minus" aria-hidden="true"></i></li>
+                            <li>ReactJS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Body -->
+        <div id="app" class="container clearfix main-body"></div>
+        
+        <!-- Footer -->
+        <footer class="navbar-fixed-bottom clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="profile col-sm-4">
+                        <p><img src="images/me.jpg" alt="Mohammed Ansir" class="img-responsive pull-left" />A seasoned web developer with over 6 years of experience working on commercial projects.</p>
+                    </div>
+                    <div class="spacer col-sm-4">
+                    </div>
+                    <div class="contact col-sm-4">
+                        <ul class="list-unstyled list-inline text-center">
+                            <li>
+                                <a href="mailto:mohammed.ansir@gmail.com">
+                                    <i class="fa fa-envelope-o fa-3x hidden-xs" aria-hidden="true"></i>
+                                    <i class="fa fa-envelope-o fa-2x visible-xs" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/lenny2472013/" target="_blank">
+                                    <i class="fa fa-instagram fa-3x hidden-xs" aria-hidden="true"></i>
+                                    <i class="fa fa-instagram fa-2x visible-xs" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/mohammed-ansir-a2b90523/" target="_blank">
+                                    <i class="fa fa-linkedin-square fa-3x hidden-xs" aria-hidden="true"></i>
+                                    <i class="fa fa-linkedin-square fa-2x visible-xs" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
         <script src="js/bundle.js"></script>
     </body>
 </html>
