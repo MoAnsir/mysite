@@ -1,0 +1,102 @@
+/* Extra small devices (phones, less than 768px) */
+.main-body {
+    margin-bottom: 168px;
+}
+
+.main-body .table td{
+    width: 33.3%;
+}
+
+.header-text{
+    margin: 10px 0 0 0; 
+    font-size: 24px;
+}
+
+.header-text > i{
+    color: white; 
+    font-weight: bolder; 
+    padding-left: 10px;
+}
+.navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+}
+
+footer, .jumbotron{
+    background-color: #3e3f3a;
+    color: white;
+}
+
+footer .row{
+    padding: 15px 15px 0 15px;
+}
+
+footer img{
+    border: 3px solid #98978b;
+    height: 50px;
+    margin-right: 10px;
+    width: 50px;
+}
+.fa-minus{
+    color: #79a736;
+}
+
+.my-details{
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+.navbar-fixed-bottom .list-unstyled {
+    margin-bottom: 0;
+}
+
+.navbar-fixed-bottom .profile p{
+    margin-bottom: 0;
+}
+
+.navbar-fixed-bottom .row{
+    padding-top: 8px;
+}
+
+.nav-desk{
+    display: none;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .my-details{
+        margin-top: 40px;
+    }
+    .main-body {
+        margin-bottom: 125px;
+    }
+    .navbar-fixed-bottom .list-unstyled {
+        margin-bottom: 10px;
+    }
+    .navbar-fixed-bottom .profile p{
+        margin-bottom: 10px;
+    }
+    .navbar-fixed-bottom .row{
+        padding-top: 15px;
+    }
+    .navbar-default .nav-mobile{
+        display: none !important;
+    }
+    .nav-desk{
+        display: block;
+    }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container{
+        max-width: 1000px;
+    }
+}
